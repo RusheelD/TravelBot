@@ -5,6 +5,7 @@
         "outDir": "./dist"
     },
     "files": [
-        "**/*"
+        "app.ts",
+        "dialog.ts"
     ]
 }
