@@ -1,27 +1,29 @@
 {
-  "name": "travelbot",
-  "version": "1.0.0",
-  "description": "Create a bot that can tell travel times between two points.",
-  "main": "app.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RusheelD/TravelBot.git"
-  },
-  "author": "Rusheel",
-  "bugs": {
-    "url": "https://github.com/RusheelD/TravelBot/issues"
-  },
-  "homepage": "https://github.com/RusheelD/TravelBot#readme",
-  "dependencies": {
-    "botbuilder": "^3.15.0",
-    "git": "^0.1.5",
-    "restify": "^7.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "^10.3.0",
-    "@types/restify": "^7.2.0"
-  }
+    "name": "travelbot",
+    "version": "1.0.0",
+    "description": "Create a bot that can tell travel times between two points.",
+    "main": "app.ts",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RusheelD/TravelBot.git"
+    },
+    "author": "Rusheel",
+    "bugs": {
+        "url": "https://github.com/RusheelD/TravelBot/issues"
+    },
+    "homepage": "https://github.com/RusheelD/TravelBot#readme",
+    "dependencies": {
+        "botbuilder": "^3.15.0",
+        "git": "^0.1.5",
+        "restify": "^7.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "^10.3.0",
+        "@types/restify": "^7.2.0"
+    }
 }
